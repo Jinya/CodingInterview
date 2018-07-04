@@ -1,15 +1,17 @@
 //
-//  main.m
+//  ReduceBlank.m
 //  CodingInterview
 //
 //  Created by Jinya Tu on 2018/7/4.
 //  Copyright © 2018年 Jinya Tu. All rights reserved.
 //
 
-//问题：给一个字符串，去掉其首尾空格，并将字符串中连续2个及以上空格减少为1个
+#import <Foundation/Foundation.h>
 
-//解答：
-#include <stdio.h>
+//问题：给定一个字符串，去掉其首尾空格，并将字符串中连续2个及以上空格减少为1个
+
+//回答
+
 void reduceBlank(char string[]) {
     if (string == NULL) {
         printf("原字符串是空串\n");
@@ -46,11 +48,11 @@ void reduceBlank(char string[]) {
 }
 
 
-int main() {
-    char string[] = " a  b  c d   e  fg  ";
-    reduceBlank(string);
-    return 0;
-}
+//int main(int argc, char * argv[]) {
+//    char string[] = " a  b  c d   e  fg  ";
+//    reduceBlank(string);
+//    return 0;
+//}
 
 //原字符串是[ a  b  c d   e  fg  ]
 //处理后字符串是[a b c d e fg]
