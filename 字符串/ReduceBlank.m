@@ -11,6 +11,7 @@
 //问题：给定一个字符串，去掉其首尾空格，并将字符串中连续2个及以上空格减少为1个
 
 //回答
+//C语言
 
 void reduceBlank(char string[]) {
     if (string == NULL) {

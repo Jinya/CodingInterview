@@ -11,6 +11,7 @@
 //问题：给定一个字符串，将字符串中的每个空格替换为“%20”。例如输入”We are happy.“则输出“We%20are%20happy.”。
 
 //回答：时间复杂度为O(n)
+//C语言
 
 // capacity为字符数组string的总容量
 void replaceBlank(char string[], int capacity) {
